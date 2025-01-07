@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
         // pipe - conecta fluxos de leitura e escrita, sem armazenar os dados intermediários na memória
         // columns: true - primeira linha do arquivo csv é tratado como cabeçalho, o nome do cabeçalho corresponde ao nome da coluna no banco de dados
         // delimiter - delimita o conteúdo de uma célula, nesse caso, o ponto e vírgula delimita o conteúdo
-        .pipe(csv.parse({columns: false, delimiter: ';'}))
+        .pipe(csv.parse({columns: true, delimiter: ';'}))
 
         // Acionar o evento data quando ler uma linha e executar a função enviando os dados como parâmetro. 
         .on('data', async (dadosLinha) => {

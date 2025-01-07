@@ -1,96 +1,102 @@
-﻿DATA;T;TIPO;VALOR
-PRESTAÇÕES;;;
-05/mar;6X12;Academia;R$ 117,80
-07/mai;Mês;Spotify;R$ 11,90
-12/mar;6X6;Pneu_MOTO;R$ 153,33
-02/abr;5X8;Impressora;R$ 156,12
-26/mai;4X7;Tênis Andréa;R$ 51,41
-02/jul;2X4;Parte elétrica e pastilhamento;R$ 100,75
-11/jul;2X2;Presente Alice;R$ 47,50
-28/ago;1x2;Ventilador;R$ 59,90
-CONTAS FIXAS - CRÉDITO;;;
-17/ago;;Cabelereiro;R$ 35,00
-18/ago;;Farmácia;R$ 15,00
-18/ago;;Farmácia;R$ 17,50
-25/ago;;Farmácia;R$ 45,89
-07/ago;;Gasolina_MOTO;R$ 70,09
-17/ago;;Gasolina_MOTO;R$ 81,58
-28/ago;;Gasolina_MOTO;R$ 88,44
-31/ago;;Troca_Óleo;R$ 152,00
-CONTAS VARIÁVEIS - CRÉDITO;;;
-1;;Café_FATEC;R$ 3,00
-2;;Salgado_FATEC;R$ 13,00
-3;;Torta_FATEC;R$ 21,00
-03/ago;;Gasolina_Carro;R$ 50,00
-03/ago;;Mercado;R$ 22,99
-05/ago;;Para Todos - plantas;R$ 19,50
-06/ago;;Pizza;R$ 36,00
-06/ago;;Gallo - plantas;R$ 5,00
-13/ago;;Mercado_Escola;R$ 6,77
-14/ago;;Papelaria;R$ 31,80
-24/ago;;Lanche;R$ 29,50
-27/ago;;Mercado;R$ 7,18
-29/ago;;Garrafa de água;R$ 3,00
-31/ago;;Porção + Cerveja;R$ 51,50
-10/jul;;FATURA NU_BANK;R$ 1.504,45
-16/mai;4x6;Bauleto_MP;R$ 31,31
-22/ago;;GTA-V;R$ 17,50
-10/jun;;FATURA MP;R$ 48,81
-CONTAS FIXAS - DINHEIRO;;;
-10/jul;Mês;CONTAS DA CASA;R$ 900,00
-10/fev;8x12;Guarda Roupa;R$ 148,32
-10/jul;Mês;Dentista;R$ 200,00
-07/jul;2x2;Calça shopping;R$ 55,00
-13/set;;Emp_Tia_Jac;R$ 50,00
-21/set;;God of War;R$ 19,90
-10/jun;;GASTOS_DINHEIRO;R$ 1.373,22
-01/09/2024;;TOTAL DE GASTOS;R$ 2.926,48
-;;;
-;;;
-DESCRICAO;ATIVO I;PASSIVO;ATIVO II
-BB - pop;0;0;0
-PicPay - 135% CDI;5.000,28;36,22;5.036,50
-;;;
-NUBANK;;;
-Nu_Inv 120% CDI;1.223,72;10,47;1.234,19
-Nu CDB 122,5% CDI;3.097,14;24,78;3.121,92
-Nu_rendimento;4.320,86;35,25;4.356,11
-;;;
-MERCADO PAGO;;;
-MP - 117% CDI;3.312,31;26,36;3.338,67
-MP - 120% CDI;594,93;5,56;600,49
-IMPRESSORA;6,29;0,04;6,33
-IMPRESSORA;1,45;0,01;1,46
-Fundo_seg 108% CDI;791,79;0,12;791,91
-TOTAL Investido;4.706,77;32,09;4.738,86
-;;;
-TRANSAÇÕES CONTA CORRENTE - MERCADO PAGO;;;
-DESCRIÇÃO;GANHOS;GASTOS;SALDO
-Conta 105% CDI;;;1739,51
-Salário;2914,55;0;4.667,82
-FATURA_Nu;0;-1504,45;3.163,37
-Gastos_DINHEIRO;0;-1373,22;1.790,15
-FATURA_MP;0;-48,81;1.741,34
-;0;0;1.741,34
-;0;0;1.741,34
-;0;0;1.741,34
-;0;0;1.741,34
-TOTAL;2914,55;-2926,48;
-;;;
-Conta 105% CDI;1.739,51;13,76;1.741,34
-TOTAL MERCADO PAGO;6.446,28;45,85;6.480,20
-;;;
-INTER;;;
-CDB - 125% CDI;8.312,37;60,21;8.372,58
-CDB - 125% CDI;3.422,02;24,79;3.446,81
-CDB - 120% CDI;5.810,91;49,45;5.860,36
-LCI - IPCA + 4,84;5.837,01;26,45;5.863,46
-LCI - IPCA + 5%;6.046,83;26,56;6.073,39
-LCI - IPCA + 5,6%;6.117,99;31,98;6.149,97
-Tes_selic + 0,21%;5.624,22;42,22;5.666,44
-Tes_selic + 0,17%;6.324,93;46,76;6.371,69
-TOTAL;47.496,28;308,42;47.804,70
-;;;
-Total Rendimento;425,74;;
-;;;
-SALDO;66.603,99;-2.926,48;63.677,51
+﻿TIPO_GASTO;DATA;PARCELA;DESCRIÇÃO;VALOR
+Prestações - crédito;05/03/2025;6X12;Academia;R$ 117,80
+Prestações - crédito;07/05/2025;;Spotify;R$ 11,90
+Prestações - crédito;12/03/2025;6X6;Pneu_MOTO;R$ 153,33
+Prestações - crédito;02/04/2025;5X8;Impressora;R$ 156,12
+Prestações - crédito;26/05/2025;4X7;Tênis Andréa;R$ 51,41
+Prestações - crédito;02/07/2025;2X4;Parte elétrica e pastilhamento;R$ 100,75
+Prestações - crédito;11/07/2025;2X2;Presente Alice;R$ 47,50
+Prestações - crédito;28/08/2025;1x2;Ventilador;R$ 59,90
+CONTAS FIXAS - Crédito;17/08/2025;;Cabelereiro;R$ 35,00
+CONTAS FIXAS - Crédito;18/08/2025;;Farmácia;R$ 15,00
+CONTAS FIXAS - Crédito;18/08/2025;;Farmácia;R$ 17,50
+CONTAS FIXAS - Crédito;25/08/2025;;Farmácia;R$ 45,89
+CONTAS FIXAS - Crédito;07/08/2025;;Gasolina_MOTO;R$ 70,09
+CONTAS FIXAS - Crédito;17/08/2025;;Gasolina_MOTO;R$ 81,58
+CONTAS FIXAS - Crédito;28/08/2025;;Gasolina_MOTO;R$ 88,44
+CONTAS FIXAS - Crédito;31/08/2025;;Troca_Óleo;R$ 152,00
+CONTAS VARIÁVEIS - Crédito;15/08/2025;;Café_FATEC;R$ 3,00
+CONTAS VARIÁVEIS - Crédito;20/08/2025;;Salgado_FATEC;R$ 13,00
+CONTAS VARIÁVEIS - Crédito;23/08/2025;;Torta_FATEC;R$ 21,00
+CONTAS VARIÁVEIS - Crédito;03/08/2025;;Gasolina_Carro;R$ 50,00
+CONTAS VARIÁVEIS - Crédito;03/08/2025;;Mercado;R$ 22,99
+CONTAS VARIÁVEIS - Crédito;05/08/2025;;Para Todos - plantas;R$ 19,50
+CONTAS VARIÁVEIS - Crédito;06/08/2025;;Pizza;R$ 36,00
+CONTAS VARIÁVEIS - Crédito;06/08/2025;;Gallo - plantas;R$ 5,00
+CONTAS VARIÁVEIS - Crédito;13/08/2025;;Mercado_Escola;R$ 6,77
+CONTAS VARIÁVEIS - Crédito;14/08/2025;;Papelaria;R$ 31,80
+CONTAS VARIÁVEIS - Crédito;24/08/2025;;Lanche;R$ 29,50
+CONTAS VARIÁVEIS - Crédito;27/08/2025;;Mercado;R$ 7,18
+CONTAS VARIÁVEIS - Crédito;29/08/2025;;Garrafa de água;R$ 3,00
+CONTAS VARIÁVEIS - Crédito;31/08/2025;;Porção + Cerveja;R$ 51,50
+TOTAL_FATURA_NUBANK;10/07/2025;;TOTAL_NU;R$ 1.504,45
+Prestações - crédito;16/05/2025;4x6;Bauleto_MP;R$ 31,31
+CONTAS VARIÁVEIS - Crédito;22/08/2025;;GTA-V;R$ 17,50
+TOTAL_FATURA_MP;10/06/2025;;TOTAL_MP;R$ 48,81
+CONTAS FIXAS - Dinheiro;10/07/2025;;CONTAS DA CASA;R$ 900,00
+Prestações - Dinheiro;10/02/2025;8x12;Guarda Roupa;R$ 148,32
+CONTAS FIXAS - Dinheiro;10/07/2025;;Dentista;R$ 200,00
+Prestações - Dinheiro;07/07/2025;2x2;Calça shopping;R$ 55,00
+CONTAS VARIÁVEIS - Dinheiro;13/09/2025;;Emp_Tia_Jac;R$ 50,00
+CONTAS VARIÁVEIS - Dinheiro;21/09/2025;;God of War;R$ 19,90
+TOTAL_GASTOS_DINHEIRO;10/06/2025;;TOTAL_DINHEIRO;R$ 1.373,22
+TOTAL_GASTOS_MENSAL;01/09/2024;;TOTAL_MENSAL;R$ 2.926,48
+;;;;
+INSTITUIÇÃO;DESCRIÇÃO;ATIVO I;PASSIVO;ATIVO II
+BB;POUPANÇA;0;0;0
+PIC_PAY;135% CDI;5.000,28;36,22;5.036,50
+NU_BANK;120% CDI;1.223,72;10,47;1.234,19
+NU_BANK;CDB 122,5% CDI;3.097,14;24,78;3.121,92
+TOTAL_NU_BANK;INICIAL - FINAL;4.320,86;35,25;4.356,11
+MERC_PAGO;117% CDI;3.312,31;26,36;3.338,67
+MERC_PAGO;120% CDI;594,93;5,56;600,49
+MERC_PAGO;IMPRESSORA;6,29;0,04;6,33
+MERC_PAGO;IMPRESSORA;1,45;0,01;1,46
+MERC_PAGO;Fundo_seg 108% CDI;791,79;0,12;791,91
+MERC_PAGO;Conta 105% CDI;1.739,51;13,76;1.741,34
+TOTAL_MERC_PAGO;INICIAL - FINAL;6.446,28;45,85;6.480,20
+INTER;CDB - 125% CDI;8.312,37;60,21;8.372,58
+INTER;CDB - 125% CDI;3.422,02;24,79;3.446,81
+INTER;CDB - 120% CDI;5.810,91;49,45;5.860,36
+INTER;LCI - IPCA + 4,84;5.837,01;26,45;5.863,46
+INTER;LCI - IPCA + 5%;6.046,83;26,56;6.073,39
+INTER;LCI - IPCA + 5,6%;6.117,99;31,98;6.149,97
+INTER;Tes_selic + 0,21%;5.624,22;42,22;5.666,44
+INTER;Tes_selic + 0,17%;6.324,93;46,76;6.371,69
+TOTAL_INTER;INICIAL - FINAL;47.496,28;308,42;47.804,70
+TOTAL_APLICAÇÕES;RENDIMENTO;;425,74;
+TOTAL_SALDO_GASTOS;INICIAL - FINAL;66.603,99;-2.926,48;63.677,51
+;;;;
+DESCRIÇÃO;GANHOS;GASTOS;SALDO_INICIAL;
+MP_CC_105% CDI;0;0;1739,51;
+Salário;2914,55;0;4.667,82;
+FATURA_Nu;0;-1504,45;3.163,37;
+Gastos_DINHEIRO;0;-1373,22;1.790,15;
+FATURA_MP;0;-48,81;1.741,34;
+TOTAL;2914,55;-2926,48;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
