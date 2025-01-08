@@ -34,8 +34,8 @@ PARTE FINALIZADA: 06/01/2025 19:40
 ### URL Git: https://github.com/Magila-Ferreira/leitorArquivoCSV.git
 PARTE FINALIZADA: 07/01/2025 12:00
 
-<!-- 07/01/2025 14:00 - Manipular arquivos csv -->
-
+<!-- 07/01/2025 14:00 - Importar dados do arquivos csv -->
+PARTE FINALIZADA: 07/01/2025 18:00
 
 ### Continuar a partir dos 18:48 min
 

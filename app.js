@@ -10,9 +10,10 @@ const app = express(); // Chamada da função EXPRESS
 // ROTA DE IMPORTAÇÃO DO ARQUIVO CSV
 app.get("/", (req, res) => {
 
-    // CAMINHO DO ARQUIVO CSV
-    const arquivoCSV = '2024.csv';
-
+    // CAMINHO DOS ARQUIVOS CSV
+    let arquivoCSV = '2024_Gastos.csv';
+    const gastos = [];
+    
     // LER O ARQUIVO CSV
     fs.createReadStream(arquivoCSV)
 
@@ -23,7 +24,8 @@ app.get("/", (req, res) => {
 
         // Acionar o evento data quando ler uma linha e executar a função enviando os dados como parâmetro. 
         .on('data', async (dadosLinha) => {
-            console.log(dadosLinha);
+            gastos.push(dadosLinha);
+            console.log(gastos);
         });
 
     return res.send("Importação concluída.");
