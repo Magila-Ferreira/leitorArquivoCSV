@@ -31,12 +31,47 @@ PARTE FINALIZADA: 06/01/2025 16:00
 PARTE FINALIZADA: 06/01/2025 19:40
 
 <!-- 07/01/2025 09:30 - Configurando a sincronização do projeto com o GitHub -->
-### URL Git: https://github.com/Magila-Ferreira/leitorArquivoCSV.git
+## URL Git: https://github.com/Magila-Ferreira/leitorArquivoCSV.git
 PARTE FINALIZADA: 07/01/2025 12:00
 
 <!-- 07/01/2025 14:00 - Importar dados do arquivos csv -->
 PARTE FINALIZADA: 07/01/2025 18:00
 
-### Continuar a partir dos 18:48 min
+<!-- 09/01/2025 14:30 - Configurar a conexão com o banco de dados mySQL -->
+        
+        IMPORTAR DEPENDÊNCIA DE CONEXÃO DO PROJETO COM O MYSQL:
+
+<!-- SEQUELIZE: biblioteca JS para gerenciar o banco de dados SQL -->
+### npm install --save sequelize
+
+<!-- Instalação do drive do banco de dados -->
+### npm install --save mysql2
+
+<!-- SEQUELIZE-CLI: interface de linha de comando usada para criar modelos, configurações e arquivos de migração para banco de dados -->
+### npm install --save-dev sequelize-cli
+
+        CONFIGURAÇÃO DOS DIRETÓRIOS DE CONEXÃO COM O BANCO DE DADOS:
+
+<!-- CONFIG, MIGRATIONS, MODELS, SEEDERS: Criação dos diretórios para gerenciar o banco de dados  -->
+### npx sequelize-cli init
+
+<!-- Manipular variáveis de ambiente -->
+### npm install --save dotenv
+PARTE FINALIZADA: 09/01/2025 18:00
+
+
+
+
+
+
+<!-- 10/01/2025 08:00 - Salvar dados csv no banco de dados mySQL -->
+
+<!-- Arquivo SQL para gerar o banco, tabelas e inserts MySQL -->
+## leitorArquivosCSV.sql --> ARQUIVO UTILIZADO NA CRIAÇÃO DA BASE DE DADOS.
+
+
+
+
+## Continuar a partir dos 39:45 min
 
 <!-- https://www.youtube.com/watch?v=-tAf3q1mKvk&ab_channel=Celke -->
