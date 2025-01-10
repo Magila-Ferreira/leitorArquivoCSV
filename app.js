@@ -1,8 +1,9 @@
 // INCLUIR AS BIBLIOTECAS
 const express = require('express'); // Inclui biblioteca EXPRESS
 const fs = require('fs'); // Permite interagir com o sistema de arquivos  
-const { delimiter } = require('path');
-const csv = require('csv');
+const db = require('./db/models'); // Inclui a conexão com o banco de dados
+const { delimiter } = require('path'); // Inclui a biblioteca que permite delimitar o conteúdo de uma célula
+const csv = require('csv'); // Inclui a biblioteca que permite ler arquivos CSV
 
 // GERENCIA AS REQUISIÇÕES, ROTAS E URLs, ENTRE OUTRAS FUNCIONALIDADES
 const app = express(); // Chamada da função EXPRESS
