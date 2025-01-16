@@ -4,7 +4,19 @@
 
 06/01/2025 14:30 - Configurando o ambiente de desenvolvimento -->
 
-        COMO RODAR O PROJETO:
+        COMO RODAR O PROJETO BAIXADO:
+
+<!-- Instalar todas as dependências indicadas pelo package.json -->
+### npm install
+
+<!-- Criar a base de dados 'leitorarquivocsv' no MySQL 
+        1. Altere as credenciais de conexão com o banco, no arquivo '.env'
+
+        2. Executar as migrations -->
+### npm sequelize-cli db:migrate
+
+<!-- Rodar a aplicação pelo NODE -->
+### node app.js
 
 <!-- Rodar a aplicação pelo NODEMON -->
 ### nodemon app.js
@@ -50,6 +62,9 @@ PARTE FINALIZADA: 07/01/2025 18:00
 <!-- SEQUELIZE-CLI: interface de linha de comando usada para criar modelos, configurações e arquivos de migração para banco de dados -->
 ### npm install --save-dev sequelize-cli
 
+<!-- Criar banco de dados com formato UTF-8 -->
+# create DATABASE leitorArquivoCSV CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
         CONFIGURAÇÃO DOS DIRETÓRIOS DE CONEXÃO COM O BANCO DE DADOS:
 
 <!-- CONFIG, MIGRATIONS, MODELS, SEEDERS: Criação dos diretórios para gerenciar o banco de dados  -->
@@ -59,19 +74,17 @@ PARTE FINALIZADA: 07/01/2025 18:00
 ### npm install --save dotenv
 PARTE FINALIZADA: 09/01/2025 18:00
 
+<!-- 15/01/2025 09:40 - Salvar dados csv no banco de dados mySQL -->
 
+        CONFIGURAÇÃO DO BANCO DE DADOS ATRAVÉS DO SEQUELIZE:
 
+<!-- Define o modelo de tabela do banco:        
+        Coluna:tipo_dado                -->
+### npx sequelize-cli model:generate --name Transacoes --attributesTIPO:string,DATA:string,PARCELA:string,DESCRICAO:string,VALOR:string 
 
+        MIGRAÇÃO DOS DADOS CSV PARA O BANCO DE DADOS
+<!-- Executa a migração dos dados csv para o banco -->
+### npx sequelize-cli db:migrate
 
-
-<!-- 10/01/2025 08:00 - Salvar dados csv no banco de dados mySQL -->
-
-<!-- Arquivo SQL para gerar o banco, tabelas e inserts MySQL -->
-## leitorArquivosCSV.sql --> ARQUIVO UTILIZADO NA CRIAÇÃO DA BASE DE DADOS.
-
-
-
-
-## Continuar a partir dos 39:45 min
-
+        PROJETO DESENVOLVIDO A PARTIR DO TUTORIAL
 <!-- https://www.youtube.com/watch?v=-tAf3q1mKvk&ab_channel=Celke -->
